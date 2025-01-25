@@ -8,3 +8,8 @@
 # ビルドファイル
 /bin/
 main
+main
+*.log
+*.exe
+vendor/
+*.env

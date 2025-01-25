@@ -1,0 +1,10 @@
+# IDE
+.vscode/
+.idea/
+
+# OS関連
+.DS_Store
+
+# ビルドファイル
+/bin/
+main

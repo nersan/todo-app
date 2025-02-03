@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App</title>
+</head>
+<body>
+  <h1>Todo App</h1>
+
+  <!-- Todo追加フォーム -->
+  <form action="/add" method="post">
+    <input type="text" name="task" placeholder="新しいTodo" required>
+    <input type="submit" value="追加">
+  </form>
+
+  <!-- Todoリストの表示 -->
+  <ul>
+    {{range .}}
+      <li>{{.Task}}</li>
+    {{else}}
+      <li>Todoはありません</li>
+    {{end}}
+  </ul>
+</body>
+</html>

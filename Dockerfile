@@ -15,4 +15,4 @@ COPY . .
 RUN go build -o main ./cmd/main.go
 
 # アプリケーションを実行
-CMD ["./main"]
+CMD ["/app/main"]
